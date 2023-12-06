@@ -101,7 +101,7 @@ if (!document.getElementById(cssId))
     link.id   = cssId;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://gleeful-chebakia-f51c6e.netlify.app/whatsapp/style.css';
+    link.href = 'https://typebot-template.netlify.app/whatsapp/style.css';
     link.media = 'all';
     head.appendChild(link);
 }
