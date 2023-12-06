@@ -53,7 +53,7 @@ const userAvatar = botBody.querySelector('img[elementtiming="Bot avatar"]');
 const status = varStatus;
 
 const audioNot = document.createElement('audio');
-audioNot.src = 'https://templates.ideiaschatgpt.com.br/whatsapp/audio_whatsapp.mp3';
+audioNot.src = 'https://typebot-template.netlify.app/whatsapp/audio_whatsapp.mp3';
 let mensagesLength = 0;
 
 setInterval(() => {
