@@ -1,0 +1,164 @@
+.typebot-container {
+  background-color: #0B141A !important;
+  background-image: url(https://i.ibb.co/GTrKWg1/bg-whats-min.png) !important;
+  background-size: auto;
+  position: relative !important;
+}
+
+.typebot-chat-view>.flex:first-child {
+  padding-top: 30px;
+}
+
+.typebot-container {
+  background-size: initial !important;
+  background-repeat: repeat-x !important;
+}
+
+iframe[src=""] {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: relative;
+  width: 100%;
+  height: 100% !important;
+  z-index: 999999;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+a#lite-badge {
+  display: none !important;
+}
+
+.p-4 {
+  padding: 8px !important;
+}
+
+.track {
+  margin-left: 5px;
+}
+
+/* Corrigir cor do botão */
+.disabled\:opacity-50:disabled {
+  opacity: 100%;
+}
+
+/* ######### */
+.typebot-input {
+  background-color: #2A3942 !important;
+  color: #fff !important;
+  border-radius: 50px !important;
+  box-shadow: 0 2px 6px -1px rgba(0, 0, 0, .1);
+  bottom: 0;
+  left: 0;
+  height: 78px;
+  z-index: 1;
+  border: solid 12px #202C33;
+  transition: .5s easy;
+  position: fixed;
+  min-width: 100%;
+  box-shadow: 0px 120px 0px 120px #202C33;
+}
+
+.typebot-input input::placeholder {
+  color: #8696A0 !important;
+}
+
+.typebot-input .typebot-button {
+  content: "";
+  border-radius: 50%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border: none;
+  font-size: 0px;
+  color: transparent;
+  margin-bottom: 2px;
+}
+
+.typebot-input .typebot-button::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  color: #fff;
+  height: 25px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="19px"><path d="M476.59 227.05l-.16-.07L49.35 49.84A23.56 23.56 0 0027.14 52 24.65 24.65 0 0016 72.59v113.29a24 24 0 0019.52 23.57l232.93 43.07a4 4 0 010 7.86L35.53 303.45A24 24 0 0016 327v113.31A23.57 23.57 0 0026.59 460a23.94 23.94 0 0013.22 4 24.55 24.55 0 009.52-1.93L476.4 285.94l.19-.09a32 32 0 000-58.8z" fill="white"/></svg>');
+}
+
+/* Oculta o ícone anterior*/
+.typebot-input .typebot-button .send-icon {
+  display: none;
+}
+
+.bubble1,
+.bubble2,
+.bubble3 {
+  background-color: #fff !important;
+  opacity: .5;
+}
+
+.bubble1,
+.bubble2,
+.bubble3 {
+  background-color: #fff !important;
+  opacity: .5;
+}
+
+.typebot-host-bubble {
+  filter: drop-shadow(0 1.5px 0.5px rgba(11, 20, 26, .13));
+  border-radius: 0 8px 8px 8px;
+  color: #fff !important;
+}
+
+.typebot-host-bubble>.bubble-typing {
+  border-radius: 0 8px 8px 8px;
+  background: #202C33 !important;
+  /* bg do bot */
+}
+
+.typebot-host-bubble>.bubble-typing:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 10px 10px 0;
+  border-color: transparent #202C33 transparent transparent;
+  top: 0;
+  left: -10px;
+}
+
+.typebot-guest-bubble {
+  color: #fff !important;
+  background: #005C4B !important;
+  /* bg do user */
+  position: relative;
+  border-radius: 5px 0 5px 5px;
+  max-width: 90%;
+  filter: drop-shadow(0 1.5px 0.5px rgba(11, 20, 26, .13));
+}
+
+.typebot-guest-bubble .feno-bubble {
+  color: rgb(255 255 255 / 28%) !important;
+}
+
+.typebot-guest-bubble:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0px 0 10px 10px;
+  border-color: transparent transparent transparent #005C4B;
+  top: 0;
+  right: -10px;
+  border-style: solid;
+}
