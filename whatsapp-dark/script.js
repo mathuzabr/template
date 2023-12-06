@@ -101,7 +101,7 @@ if (!document.getElementById(cssId))
     link.id   = cssId;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://templates.ideiaschatgpt.com.br/whatsapp/style.css';
+    link.href = 'https://typebot-template.netlify.app/whatsapp-dark/style.css';
     link.media = 'all';
     head.appendChild(link);
 }
