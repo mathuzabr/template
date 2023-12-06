@@ -107,7 +107,7 @@ function criarBarra(var_nome = 'Seu Nome', var_avatar = '', var_insta_nome = 'se
         link.id = cssId;
         link.rel = 'stylesheet';
         link.type = 'text/css';
-        link.href = 'https://typebot-template.netlify.app/instagram/script.js';
+        link.href = 'https://templates.ideiaschatgpt.com.br/instagram/style.css';
         link.media = 'all';
         head.appendChild(link);
     }
